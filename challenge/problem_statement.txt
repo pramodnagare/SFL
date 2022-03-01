@@ -1,9 +1,3 @@
-Hi Pramod!
-Thanks for taking the time to chat just now and for being so open in taking the challenge now! Below please find the details regarding the data engineering exercise.
-The following evaluation is designed to demonstrate both your technical and soft-skill capabilities. As we have discussed, the ability to convey information clearly to various audiences is just as important in this role as any technical skills and so the following sections should be considered equally important. Generally, this evaluation should not take more than six hours to complete, but we ask that you return the completed challenge within three days. Please let me know if you need more time, and we will adjust (doing so will NOT negatively impact your evaluation).
-
-The goal is for you to provide a GitHub repo of your finished evaluation and be prepared to present your work in our follow-up call. Please feel free to present the written material in whatever manner you think is most appropriate (text document, slide deck, etc.).
-
 Section 1: Database & Python ETL
 Provision one database of your choosing (SQL, NoSQL, Graph).  Write a python ETL that ingests the provided data, transforms it in some way, and loads it into the database.
 
@@ -13,18 +7,3 @@ What is a Data Lake? Explain its benefits, how it differs from a data warehouse,
 Explain serverless architecture.  What are its pros and cons?
 Please provide a diagram of the ETL pipeline from Section 1 using serverless AWS services. Describe each component and its function within the pipeline.
 Describe modern MLOps and how organizations should be approaching management from a tool and system perspective.
-
-Upon receipt, we will schedule a 30-minute review call to discuss your results. Thank you and good luck!
-
-Best,
-Camille
---
-Camille Cramer
-Sr. Operations Associate
-SFL Scientific LLC
-3 Batterymarch Park
-Quincy, MA 02169
-(207) 279-6458
-(617) 714-2000
-ccramer@sflscientific.com
-www.sflscientific.com
