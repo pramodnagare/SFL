@@ -34,7 +34,7 @@ Also while adding the records to Postgres table add load_date column
 
  ### D. Airflow and Postgres Setup:
  1. Refer docker-compose.yml file for the implementation
- 2. We have two containers running:
+ 2. We have 3 containers running:
     * Postgres Database
     * Airflow Scheduler
     * Airflow Webserver
