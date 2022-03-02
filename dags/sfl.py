@@ -59,6 +59,15 @@ def transform_data(data):
     return data
 
 
+def validate_data(**kwargs):
+
+    data = read_data(kwargs["filepath"])
+    if sorted(kwargs["column_list"]) != sorted(data.columns):
+        return "schema_error"
+
+    return "create_sfl_table"
+
+
 def load_data(**kwargs):
 
     data = read_data(kwargs["filepath"])
@@ -81,6 +90,21 @@ load_data = BranchPythonOperator(
         "tablename": meta_config.sfl_table_name,
         "column_list": meta_config.sfl_data_column_list,
         "database_url": meta_config.sfl_database_url
+    },
+    retries=1,
+    retry_delay=5,
+    provide_context=True,
+    trigger_rule="one_success",
+    dag=dag
+)
+
+
+validate_data = BranchPythonOperator(
+    task_id="validate_sfl_data",
+    python_callable=validate_data,
+    op_kwargs={
+        "filepath": meta_config.sfl_data_filepath,
+        "column_list": meta_config.sfl_data_column_list
     },
     retries=1,
     retry_delay=5,
@@ -126,5 +150,5 @@ clear_xcom = PostgresOperator(
     dag=dag
 )
 
-start >> create_table >> delete_rows >> load_data >> schema_error >> clear_xcom >> end
-load_data >> clear_xcom >> end
+start >> validate_data >> create_table >> delete_rows >> load_data >> clear_xcom >> end
+validate_data >> schema_error >> clear_xcom >> end
