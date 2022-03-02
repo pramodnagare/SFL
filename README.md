@@ -73,3 +73,13 @@ Also while adding the records to Postgres table add load_date column
     password: airflow
  12. Enable and run the dag
  13. View the data updates in pgadmin querying sfl_data table
+
+### E. Documentation:
+
+![img.png](documentation/img.png)
+
+![img_1.png](documentation/img_1.png)
+
+![img_2.png](documentation/img_2.png)
+
+![img_3.png](documentation/img_3.png)
