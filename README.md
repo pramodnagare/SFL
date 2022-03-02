@@ -8,6 +8,10 @@ Phone: +1 857-269-6180
 
 ======================================================
 
+Overall Pipeline:
+
+![img.png](documentation/img.png)
+
 ### A. Read Problem Statement:
 Refer the problem statement from <i>challenge</i> folder
 
