@@ -1,8 +1,0 @@
-[2022-03-02 09:51:05,869] {processor.py:163} INFO - Started process (PID=13227) to work on /opt/airflow/dags/sfl.py
-[2022-03-02 09:51:05,870] {processor.py:642} INFO - Processing file /opt/airflow/dags/sfl.py for tasks to queue
-[2022-03-02 09:51:05,870] {logging_mixin.py:109} INFO - [2022-03-02 09:51:05,870] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sfl.py
-[2022-03-02 09:51:06,349] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:188 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
-[2022-03-02 09:51:06,369] {processor.py:654} INFO - DAG(s) dict_keys(['sfl_dag']) retrieved from /opt/airflow/dags/sfl.py
-[2022-03-02 09:51:06,375] {logging_mixin.py:109} INFO - [2022-03-02 09:51:06,375] {dag.py:2398} INFO - Sync 1 DAGs
-[2022-03-02 09:51:06,385] {logging_mixin.py:109} INFO - [2022-03-02 09:51:06,385] {dag.py:2937} INFO - Setting next_dagrun for sfl_dag to 2022-03-02T09:00:00+00:00
-[2022-03-02 09:51:06,393] {processor.py:171} INFO - Processing /opt/airflow/dags/sfl.py took 0.527 seconds
