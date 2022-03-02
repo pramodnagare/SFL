@@ -8,9 +8,9 @@ Phone: +1 857-269-6180
 
 ======================================================
 
-Overall Pipeline:
+### Overall Pipeline:
 
-![img.png](documentation/img.png)
+![img.png](documentation/SFL_Airflow_DAG.png)
 
 ### A. Read Problem Statement:
 Refer the problem statement from <i>challenge</i> folder
@@ -76,10 +76,10 @@ Also while adding the records to Postgres table add load_date column
 
 ### E. Documentation:
 
-![img.png](documentation/img.png)
+![img.png](documentation/SFL_ETL_Pipeline.png)
 
-![img_1.png](documentation/img_1.png)
+![img_1.png](documentation/Serverless_Architecture.png)
 
-![img_2.png](documentation/img_2.png)
+![img_2.png](documentation/Data_Lake.png)
 
-![img_3.png](documentation/img_3.png)
+![img_3.png](documentation/ML-Ops.png)
